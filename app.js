@@ -24,5 +24,5 @@ console.log('keyObject: ', keyObject);
 keythereum.exportToFile(keyObject);
 
 console.log('Private Key: ', dk.privateKey.toString('hex'));
-console.log('Address: 0x', keyObject.address);
+console.log('Address: 0x' + keyObject.address);
 
